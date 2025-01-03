@@ -1,0 +1,252 @@
+.logo {
+    width: 80%;
+    height: auto;
+}
+
+nav{
+    color: rgb(243, 21, 117);
+}
+svg{
+    width: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+ }
+  
+  .navbar .navbar-nav {
+    margin: auto;  
+  }
+  
+  .container{
+    padding-top: 5%;
+  }
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-navbar{
+background-color: #500073;
+        border-radius: 10px; 
+        padding: 10px;
+      
+  }
+  .logo {
+    width: 150%;
+    height: 90px;
+   padding-left: 50%;
+;
+  }
+ li{
+    margin: auto; 
+padding-left: 80px;
+}
+.back{
+    background-image: url(./images/backround.jpg);
+
+}
+ .texto{
+    box-shadow: 5px 5px 5px #00fffb , 0 0 20px #0081bc;
+    border-radius: 10px;
+
+ }
+ .text{
+    color: #d1d1d1;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+ }
+ .cart{
+    width: 400px;
+    aspect-ratio: 1 /0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+ }
+ .cart .imag{
+    width: 100%;
+    height: 100%;
+border-radius: inherit; }
+.cart .imag img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+
+}
+.cart::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1); 
+    box-shadow: 0px 20px 0px #0081bc; 
+    cursor: pointer;
+}
+.cart:hover img{
+    filter: grayscale(1) brightness(0.4);
+}
+.cart:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+.content{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.content h2,
+.content p{
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+}
+.content h2{
+    margin-bottom: 12px;
+    scale: 0.7;
+}
+.content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d1d1d1;
+    transform: translateY(50%);
+}
+.cart:hover .content h2{
+    scale: 1;
+    opacity: 1;
+}
+.cart:hover .content p{
+    opacity: 1;
+    transform: translateY(0);
+}
+.Menuu:hover{
+    color: darkorange;
+    font-size: 150%;
+transition: 0.3s;    
+}
+.Menuu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} footer{
+    background-color: #711a78;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #711a78;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
+.backf{
+    background-image: url(./images/travel1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+;}
+.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: left; 
+    gap: 150px; 
+  }
+  .imgtravel {
+    max-width: 400px; 
+    height: 500px; 
+    border-radius: 5px; 
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; 
+
+  }
+  .title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #5ae921;}
+  .container p {
+    color: aliceblue;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  .imgtravel:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+  }
+   .btno{
+    padding: 20%;
+   }
+   .backtech{
+    background-image: url(./images/backtech.jpg);
+   }
+.fotttech{
+    background-color: #0081bc;
+}
+.footerBottomtech{
+    background-color:#0081bc ;
+    text-align: center;
+    padding: 20px;
+ color: #d1d1d1;
+    
+}
+  
+  
+
+
